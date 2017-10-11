@@ -6,6 +6,8 @@ print('%(language)s has %(number)03d quote types.' % {"number": 2, 'language': "
 print('Hello \n world!')
 print(r'Hello \n world!')
 
+print("-----------------------------------------------------")
+
 import re
 
 r = re.compile(r'(?P<year>[0-9]{4})-(?P<month>[0-9]{2})-(?P<day>[0-9]{2})')

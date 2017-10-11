@@ -16,6 +16,8 @@ c1 = 3 + 4j
 c2 = 8 - 2j
 print(c1 + c2)
 
+print("-----------------------------------------------------")
+
 # text
 a_string = "Hello world!"
 print(a_string)
@@ -26,6 +28,8 @@ print(a_string.title())
 print(a_string.upper())
 print(a_string.replace("o world!", " Yeah!!!"))
 print(", ".join(["a", "b", "c", "d", "e"]))
+
+print("-----------------------------------------------------")
 
 # sequences
 #  list
@@ -49,12 +53,17 @@ for j in r:
 #   set
 print({2, 1, 2, 3, 1, 3, 4, })
 
+print("-----------------------------------------------------")
+
 # dictionaries
 a_dict = {"a": "A", "b": "B", "c": "C", }
 print(a_dict)
 print('b' in a_dict)
+print(a_dict.setdefault("d", "D"))
 for k, v in a_dict.items():
     print(k + " -> " + v)
+
+print("-----------------------------------------------------")
 
 
 # miscellaneous
