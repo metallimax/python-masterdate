@@ -15,8 +15,10 @@ class Person(object):
 
     def __getattr__(self, item):
         if item == "misc":
+            print("**Getting misc YOLO**")
             return "YOLO!"
         else:
+            print("**Getting %s**" % (item, ))
             return getattr(self, item)
 
     def __getitem__(self, item):

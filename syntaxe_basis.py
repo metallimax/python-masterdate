@@ -37,9 +37,11 @@ a_list = [1, 2, 3, 4, 5, ]
 print(a_list)
 first_3_numbers = a_list[:3]
 print(first_3_numbers)
+last_3_numbers = a_list[-3:]
+print(last_3_numbers)
 odd_num_from_3 = a_list[2::2]
-print(a_list + [6, 7, 8, ])
 print(odd_num_from_3)
+print(a_list + [6, 7, 8, ])
 print(a_list * 2)
 print(3 in a_list)
 #   tuple
